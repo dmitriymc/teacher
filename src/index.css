@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.login-input > label {
+  content: '';
+  width: 2.5rem;
+  height: 100%;
+  position: absolute;
+  top:0;
+  left:0;
+  background: #e5e7eb;
+}
+
+.login-input > input:focus{
+  outline: 1px solid;
+  outline-color: #a6a5fb;
+}
+
+.login-input > input:focus + label{
+  background-color:#a6a5fb!important
+}
+
+.navigation-link {
+  color: #3a3a3a;
+}
+
+.navigation-link:hover {
+  background-color: #a6a5fb;
+  color: #fff;
+  transition: 0.25s;
+}
+
+.logout-link {
+  border: 1px solid #e5e7eb;
+  color: #b4b4b4;
+}
+
+.logout-link:hover{
+  border: 1px solid #a6a5fb;
+  background-color: #a6a5fb;
+  color: #fff;
+}
+
+.diactivate-button {
+  border: 1px solid #e5e7eb;
+}
+
+.modal {
+  z-index: 9;
+}
+
+.ql-editor{
+  min-height: 450px;
+  max-height:450px;
+}
+
+.active {
+  color: #a6a5fb;
+}
+
+.fc-button {
+  background-color: #a6a5fb!important;
+  border-color: #a6a5fb!important;
+}
